@@ -8,11 +8,16 @@
     */
 
     //ENTRADA
-
+    const Aluno1 = Number(prompt('Me informe a quantidade de tarefas que o 1° aluno conseguiu fazer'))
+    const Aluno2 = Number(prompt('Me informe a quantidade de tarefas que o 2° aluno conseguiu fazer'))
+    const Aluno3 = Number(prompt('Me informe a quantidade de tarefas que o 3° aluno conseguiu fazer'))
+    const Aluno4 = Number(prompt('Me informe a quantidade de tarefas que o 4° aluno conseguiu fazer'))
 
     //PROCESSAMENTO
-
+    const Tarefa = (Aluno1 + Aluno2 + Aluno3 + Aluno4)
+    const Media = (Tarefa / 4)
 
     //SAÍDA
-
+    document.write(`A média de tarefas por aluno é ${Math.ceil(Media)}`)
+    document.write()
 </script>
